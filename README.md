@@ -1,16 +1,6 @@
 🚛 Chennai Logistics Pulse: Hyperlocal Logistics Friction Engine
 A Real-time Digital Twin for Urban Logistics Optimization
 
-Here is a professional, portfolio-ready README.md for your project.
-
-You can copy this text, create a file named README.md in your project folder, and paste it there. This is what recruiters and visitors will see on your GitHub page.
-
-🚛 Chennai Logistics Pulse: Hyperlocal Logistics Friction Engine
-A Real-time Digital Twin for Urban Logistics Optimization
-
-🔗 Click Here to View Live Demo
-(Replace YOUR_USERNAME with your actual Hugging Face username link)
-
 📖 Project Overview
 Chennai Logistics Pulse is a data-driven dashboard designed to monitor and predict logistical friction points across Chennai's key industrial and IT corridors.
 
