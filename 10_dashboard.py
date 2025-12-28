@@ -106,7 +106,7 @@ mode = st.radio("System Mode", ["🟢 Simulate", "🔴 LIVE"], horizontal=True, 
 
 
 # --- 4. LOGIC & DATA ---
-TOMTOM_API_KEY = "fNlCgkiJhPwMNn62aIS0QwsUKxv2AJ24" # 🔴 PASTE KEY
+TOMTOM_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" # 🔴 PASTE KEY
 DB_HOST = os.getenv("DB_HOST", "127.0.0.1")
 DB_PORT = int(os.getenv("DB_PORT", 3307))
 DB_CONFIG = {'user': 'root', 'password': 'rootpassword123', 'host': DB_HOST, 'port': DB_PORT, 'database': 'chennai_logistics'}
