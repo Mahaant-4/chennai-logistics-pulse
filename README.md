@@ -4,6 +4,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ed?style=for-the-badge&logo=docker&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **A Hyperlocal Logistics Intelligence Engine for Urban Transit Optimization.**
 
@@ -114,3 +115,6 @@ chennai-logistics-pulse/
 ├── Dockerfile              # Container instructions
 ├── requirements.txt        # Python dependencies
 └── README.md               # Documentation
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
