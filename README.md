@@ -8,8 +8,8 @@
 
 **A Hyperlocal Logistics Intelligence Engine for Urban Transit Optimization.**
 
-### 🔗 [View Live Demo on Hugging Face](https://huggingface.co/spaces/YOUR_USERNAME/Chennai-Logistics-Pulse)
-*(Replace `YOUR_USERNAME` with your actual link)*
+### 🔗 [View Live Demo on Hugging Face](https://huggingface.co/spaces/mahaan-4/Chennai-Logistics-Pulse)
+
 
 ---
 
