@@ -51,13 +51,19 @@ This project blends real-world telemetry with synthetic infrastructure data to d
 | **City Topology** | 🧪 **Simulated** | Hexagonal grid with attributes for road length and intersection density. |
 | **Prediction Model** | 🧪 **Simulated** | Random Forest model trained on physics-based synthetic logistics scenarios. |
 
-### 2. Machine Learning Logic
-The **Random Forest Regressor** predicts the *Base Transit Time* (in minutes) for any given zone based on:
-1.  **Road Length** (Meters)
-2.  **Intersection Density** (Node Count)
-3.  **Rainfall Intensity** (mm)
-4.  **Flood Risk Flag** (0 or 1)
-5.  **Peak Hour Status** (Is it 8-10 AM or 5-8 PM?)
+### 2. Machine Learning Logic (XGBoost)
+The core of the predictive engine is an **XGBoost Regressor** (Extreme Gradient Boosting).
+
+Unlike standard Random Forests, XGBoost was chosen for its:
+1.  **Speed:** Optimized for sparse datasets (like our road grid).
+2.  **Performance:** Sequential tree building corrects prediction errors iteratively.
+3.  **Regularization:** Built-in L1/L2 regularization prevents overfitting on synthetic data.
+
+**Model Inputs:**
+1.  **Road Complexity:** Intersection Density (Node Count)
+2.  **Meteorological Data:** Rainfall Intensity (mm)
+3.  **Temporal Features:** Peak Hour Flags
+4.  **Geospatial Risk:** Flood Zone Binary Indicators
 
 $$\text{Final Delay} = (\text{ML Prediction} \times \text{Live Traffic Factor}) + \text{Rain Penalty}$$
 
